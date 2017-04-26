@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98BA31091EAF8AA70099834A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BA31081EAF8AA70099834A /* SwiftyJSON.swift */; };
 		98F62B131EADE5AE008F12BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F62B121EADE5AE008F12BD /* AppDelegate.swift */; };
 		98F62B151EADE5AE008F12BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F62B141EADE5AE008F12BD /* ViewController.swift */; };
 		98F62B181EADE5AE008F12BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F62B161EADE5AE008F12BD /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		98F62B1D1EADE5AE008F12BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F62B1B1EADE5AE008F12BD /* LaunchScreen.storyboard */; };
 		98F62B281EADE5AE008F12BD /* mysocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F62B271EADE5AE008F12BD /* mysocketTests.swift */; };
 		98F62B331EADE5AE008F12BD /* mysocketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F62B321EADE5AE008F12BD /* mysocketUITests.swift */; };
+		98F62B411EADE5C5008F12BD /* JYChatClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F62B401EADE5C5008F12BD /* JYChatClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		98BA31081EAF8AA70099834A /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		98F62B0F1EADE5AE008F12BD /* mysocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mysocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F62B121EADE5AE008F12BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98F62B141EADE5AE008F12BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		98F62B2E1EADE5AE008F12BD /* mysocketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mysocketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F62B321EADE5AE008F12BD /* mysocketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mysocketUITests.swift; sourceTree = "<group>"; };
 		98F62B341EADE5AE008F12BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98F62B401EADE5C5008F12BD /* JYChatClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYChatClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		98F62B111EADE5AE008F12BD /* mysocket */ = {
 			isa = PBXGroup;
 			children = (
+				98BA31081EAF8AA70099834A /* SwiftyJSON.swift */,
 				98F62B121EADE5AE008F12BD /* AppDelegate.swift */,
 				98F62B141EADE5AE008F12BD /* ViewController.swift */,
+				98F62B401EADE5C5008F12BD /* JYChatClient.swift */,
 				98F62B161EADE5AE008F12BD /* Main.storyboard */,
 				98F62B191EADE5AE008F12BD /* Assets.xcassets */,
 				98F62B1B1EADE5AE008F12BD /* LaunchScreen.storyboard */,
@@ -261,6 +267,8 @@
 			files = (
 				98F62B151EADE5AE008F12BD /* ViewController.swift in Sources */,
 				98F62B131EADE5AE008F12BD /* AppDelegate.swift in Sources */,
+				98F62B411EADE5C5008F12BD /* JYChatClient.swift in Sources */,
+				98BA31091EAF8AA70099834A /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +515,7 @@
 				98F62B391EADE5AE008F12BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98F62B3A1EADE5AE008F12BD /* Build configuration list for PBXNativeTarget "mysocketTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +524,7 @@
 				98F62B3C1EADE5AE008F12BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98F62B3D1EADE5AE008F12BD /* Build configuration list for PBXNativeTarget "mysocketUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				98F62B3F1EADE5AE008F12BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
