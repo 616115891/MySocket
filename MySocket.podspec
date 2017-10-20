@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/616115891/MySocket.git", :tag => "#{s.version}" }
   s.source_files  = "MySocket", "MySocket/**/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
-  s.ios.frameworks = "CFNetwork"
+  s.ios.frameworks = "CFNetwork","UIKit"
   s.ios.deployment_target = "10.3"
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 end
