@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "MySocket"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "Keyon Socket."
   s.description  = <<-DESC
                    Keyon
