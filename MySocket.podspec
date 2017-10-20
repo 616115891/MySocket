@@ -1,7 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = "MySocket"
-  s.version      = "0.0.2"
-  s.summary      = "A lightweight and pure Swift implemented library for downloading and cacheing image from the web."
+  s.version      = "0.0.3"
+  s.summary      = "Keyon Socket."
+  s.description  = <<-DESC
+                   Keyon
+                   DESC
   s.homepage     = "https://github.com/616115891/MySocket.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "yejinyong" => "616115891@qq.com" }
